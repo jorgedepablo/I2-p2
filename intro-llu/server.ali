@@ -1,0 +1,171 @@
+V "GNAT Lib v4.8"
+M P W=b
+P SS ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_STREAMS
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK
+
+U server%b		server.adb		e345da09 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W lower_layer_udp%s	lower_layer_udp.adb	lower_layer_udp.ali
+W system%s		system.ads		system.ali
+W system.concat_4%s	s-conca4.adb		s-conca4.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+W system.strings.stream_ops%s  s-ststop.adb	s-ststop.ali
+W system.val_int%s	s-valint.adb		s-valint.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-charac.ads		20070912115821 2d3ec45b
+D a-chlat1.ads		20070912115821 2825df20
+D a-comlin.ads		20100623092347 e0accaa5
+D a-except.ads		20120716125141 10fcae55
+D a-finali.ads		20111121113555 52ecdc1b
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-reatim.ads		20090409150019 63f07669
+D a-stream.ads		20090409150019 2ca4ee37
+D a-string.ads		20070406091342 90ac6797
+D a-strmap.ads		20090409150019 9cb836fb
+D a-strunb.ads		20120426100351 3f91d4c5
+D a-tags.ads		20111212115430 6c0509d0
+D a-taside.ads		20090409150019 a4888134
+D a-textio.ads		20130104124955 386df5d4
+D a-unccon.ads		20070406091342 f9eb8f06
+D a-uncdea.ads		20070406091342 f15a5ed1
+D ada_sockets.ads	20080723100827 372c9145
+D c_sockets.ads		20120529214139 44862f45
+D c_sockets_arch.ads	20120529194800 c328cf60
+D concurrency.ads	20081111152635 d11dedce
+D interfac.ads		20110906094621 129923ea
+D i-c.ads		20110801143639 5421119b
+D i-cstrin.ads		20130104124955 341d0ddf
+D i-cstrea.ads		20130102105938 3286f6aa
+D keyed_lists_generic.ads  20080723100827 b050c1c0
+D lists_generic.ads	20080723100827 4cea129e
+D lower_layer.ads	20080723100827 bc61d30f
+D lower_layer-inet.ads	20080723100827 1d47d264
+D lower_layer-inet-udp.ads  20080723100827 60f0483f
+D lower_layer-inet-udp-uni.ads  20080723100827 c94f5d30
+D lower_layer_udp.ads	20080723100827 ec2df04c
+D server.adb		20171019113803 f8c46fa4
+D system.ads		20140416144310 90249111
+D s-atacco.ads		20120515093410 4c36d12f
+D s-atocou.ads		20111104134501 4a9c6cb4
+D s-atocou.adb		20111121115908 7116b4cf
+D s-conca4.ads		20090420091404 025fe3be
+D s-crtl.ads		20130102105938 1ea48bce
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20111024091915 b95bb341
+D s-finroo.ads		20120426095924 4ff27390
+D s-linux.ads		20110906091515 70c7cb45
+D s-multip.ads		20101011073009 38ac9f73
+D s-oscons.ads		20140416144311 70c72966
+D s-osinte.ads		20120309145048 938b6b03
+D s-parame.ads		20110830140625 b6e20cc0
+D s-pooglo.ads		20110804083314 542f33d0
+D s-secsta.ads		20110830140625 eea35a36
+D s-soflin.ads		20120515094619 24c8153c
+D s-stache.ads		20090417130712 596fc1b4
+D s-stausa.ads		20110804134155 017a0a05
+D s-stalib.ads		20130104124955 f78bcf95
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stopoo.ads		20111013103733 7b8fbeee
+D s-stposu.ads		20121005142121 ffeba1c5
+D s-stratt.ads		20100909123135 aedef97e
+D s-string.ads		20130104124955 46b01415
+D s-ststop.ads		20090417130712 ee472be4
+D s-tasinf.ads		20120730151500 21316953
+D s-taspri.ads		20110927094500 15f617a8
+D s-taprop.ads		20111212143339 1dd2e1b6
+D s-taskin.ads		20121029113218 59e95256
+D s-taprob.ads		20110927094500 502249e3
+D s-tpoben.ads		20121029113218 b641f948
+D s-tassta.ads		20121029110946 70812003
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-valint.ads		20090409150019 48a52a3f
+D s-wchcon.ads		20090417130712 bfeb2e3d
+D unchdeal.ads		20070406091342 214516a4
+X 1 ada.ads
+16K9*Ada 19e8 33|2r6 3r6 4r6 5r6 8r24 10r24 11r24 39r10 62r7 62r57 62r103
+X 4 a-comlin.ads
+38K13*Command_Line 139e21 33|5w10 11r28
+48V13*Argument{string} 33|27s32
+X 5 a-except.ads
+53K13*Exceptions 355e19 33|4w10 62r61 62r107
+75V13*Exception_Name{string} 33|62s72
+97V13*Exception_Message{string} 33|62s118
+X 10 a-string.ads
+16K13*Strings 35e16 33|2r10 10r28
+X 12 a-strunb.ads
+76K21*Unbounded 489e26 33|2w18 10r36
+79R9*Unbounded_String 473e14 33|18r17 20r12 23r16 48r26
+84V13*Length{natural} 33|49s25
+94V13*To_Unbounded_String{79R9} 33|28s19 29s14
+100V13*To_String{string} 33|29s48 30s32
+X 15 a-textio.ads
+49K13*Text_IO 471e16 33|3w10 8r28 39r14 62r11
+263U14*Put_Line 33|39s22 62s19
+X 28 lower_layer.ads
+112P9*Address_CA(110R9)
+184V14*"="{boolean} 26|30i19
+186V14*">="{boolean} 26|29i19
+X 32 lower_layer_udp.ads
+4K9*Lower_Layer_UDP 150e20 33|1w6 9r24
+8R12*Buffer_Type{28|58R9} 33|15r27
+11U14*Reset 33|35s11 46s16 50s16 54s15
+23P12*End_Point_Type{28|112P9} 33|13r19 14r19 41r27
+46V13*Build{23P12} 33|30s21
+52V13*To_IP{string} 33|29s38
+55V13*Get_Host_Name{string} 33|28s43
+64U14*Bind 33|31s8
+110U14*Send 33|53s15
+124U14*Receive 33|36s11
+148U14*Finalize 33|58s8 63s11
+X 33 server.adb
+7U11*Server 7b11 65l5 65t11
+8K12 ATI=8:28
+9K12 LLU=9:24 13r15 14r15 15r23 28r39 29r34 30r17 31r4 35r7 36r7 41r23 46r12
+. 50r12 53r11 54r11 58r4 63r7
+10K12 ASU=10:36 18r13 20r8 23r12 28r15 29r10 29r44 30r28 48r22 49r21
+11K12 ACL=11:28 27r28
+13p4 Server_EP{32|23P12} 30m4 31r14 36r20
+14p4 Client_EP{32|23P12} 41m10 53r21
+15r4 Buffer{32|8R12} 35m17 35r17 36m31 36r31 41m49 41r49 42m35 42r35 44m37
+. 44r37 46m23 46r23 48m50 48r50 50m23 50r23 52m27 52r27 53m32 53r32 54m22
+. 54r22
+16i4 Reply{natural} 45m12 49m12 52r42
+17b4 Expired{boolean} 36m54 38r10
+18r4 Maquina{12|79R9} 28m4 29r58
+19i4 Puerto{natural} 27m4 30r47
+20r4 IP{12|79R9} 29m4 30r42
+21i4 Option{natural} 42m10 43r13 47r16 55r19
+22i4 Entero{natural} 44m12 45r21
+23r4 Cadena{12|79R9} 48m12 49r32
+61r9 Ex{5|66R9} 62r87 62r136
+X 53 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+
